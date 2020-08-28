@@ -1,0 +1,90 @@
+/*
+style sheet for teaching web pages shamelessly copied from Nathan Dunfield
+*/
+
+body { 
+  color: black;
+  background: white;
+  margin-left: 9%;
+  margin-right: 5%;
+  margin-top: 3.5%;
+  font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+}
+
+
+
+h1 { 
+  margin-left: -6%;
+  font-size: 150%;
+}
+
+h1.name{ 
+  margin-left: 0em;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+h2,h3,h4,h5,h6 { margin-left: -4%; }
+h2 { font-size: 125%; }
+h3, h4, h5, h6 { font-size: 115%; }
+
+
+/* special headings for first page */
+
+h1.name{ 
+  margin-left: -0.3em;
+}
+
+h2.small{ 
+  margin-left: 0em;
+  font-size: 105%;
+}
+
+/* for spacing of the items on preprints page */
+
+ol.biblist li { margin-bottom: 0.4em; }
+
+/* bulletless list style for main page: */
+
+ul.bulletless { 
+  list-style: none;
+  padding: 0em;
+  margin-left: 1em;
+}
+
+ul.bulletless li{ 
+  margin-bottom: 0.1em;
+}
+
+/* link code */
+
+a { text-decoration: none; }
+
+a:link { 
+  color: rgb(12, 5, 222);
+}
+
+a:visited { 
+  color: rgb(167, 7, 184);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* plain horiz. rule */
+
+hr { 
+  height: 1px; 
+  color: black; 
+  border: none;
+}
+
+/* style for footer on each page */
+
+div.foot { 
+  margin-top: 2em;
+  margin-left: -4%;
+  border-top: thin solid black;
+ }
+
